@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InputBox", "InputBox\InputBox.vcxproj", "{B6693EB1-EF8C-4AD3-A048-50811D184C2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestInputBox", "TestInputBox\TestInputBox.vcxproj", "{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B} = {B6693EB1-EF8C-4AD3-A048-50811D184C2B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Debug|x64.ActiveCfg = Debug|x64
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Debug|x64.Build.0 = Debug|x64
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Debug|x86.Build.0 = Debug|Win32
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Release|x64.ActiveCfg = Release|x64
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Release|x64.Build.0 = Release|x64
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Release|x86.ActiveCfg = Release|Win32
+		{B6693EB1-EF8C-4AD3-A048-50811D184C2B}.Release|x86.Build.0 = Release|Win32
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Debug|x64.ActiveCfg = Debug|x64
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Debug|x64.Build.0 = Debug|x64
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Debug|x86.Build.0 = Debug|Win32
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Release|x64.ActiveCfg = Release|x64
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Release|x64.Build.0 = Release|x64
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Release|x86.ActiveCfg = Release|Win32
+		{FBA9D54F-E5B3-4781-B205-19DE44FD30D0}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+		SolutionGuid = {FD1D0F80-6BF8-4156-876F-630D1E8D6A90}
+	EndGlobalSection
+EndGlobal
